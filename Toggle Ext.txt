@@ -1,0 +1,8 @@
+# Notify Best Friend UUI
+def notify_best_friend_uui(current_llm):
+    # Here you would implement whatever notification or configuration change is needed
+    print(f"Best Friend UUI has been notified that {current_llm} is now active.")
+
+if __name__ == "__main__":
+    toggle_llm()
+    notify_best_friend_uui(get_current_llm())
