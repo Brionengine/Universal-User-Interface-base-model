@@ -1,0 +1,5 @@
+mkdir bf-uui-server
+cd bf-uui-server
+npm init -y
+npm install express body-parser crypto-js helmet express-validator dotenv
+npm install dotenv
