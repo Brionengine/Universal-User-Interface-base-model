@@ -1,0 +1,195 @@
+{
+  "system_info": {
+    "name": "Quantum Infinite Qubit Extension",
+    "version": "1.0.0",
+    "timestamp": "2025-11-24T19:21:33.153474"
+  },
+  "status": {
+    "total_logical_qubits_generated": 5661,
+    "generation_sessions": 5,
+    "available_backends": [
+      "ibm_fez",
+      "ibm_torino"
+    ],
+    "total_physical_qubits": 289,
+    "particle_emitter_status": {
+      "total_emissions": 2064,
+      "num_ions": 500
+    },
+    "qubit_factory_status": {
+      "total_created": 5661
+    }
+  },
+  "generation_sessions": [
+    {
+      "backend": "ibm_fez",
+      "metrics": {
+        "total_physical_qubits": 156,
+        "total_logical_qubits": 1303,
+        "scaling_factor": 8.352564102564102,
+        "generation_rate_per_second": 33042.58885839007,
+        "exotic_particle_count": 468,
+        "exotic_fraction": 0.6,
+        "avg_coherence_years": 16678.182728161468,
+        "min_error_rate": 2.2905937190934747e-15,
+        "max_error_rate": 9.907805980741256e-10,
+        "timestamp": "2025-11-24T19:21:33.121924"
+      },
+      "sample_qubits": [
+        {
+          "id": "logical_qubit_0",
+          "encoding": "surface_code",
+          "coherence_time_seconds": 305867963.7205132,
+          "coherence_time_years": 9.692370893873845,
+          "error_rate": 1.7288645475497146e-10,
+          "gate_fidelity": 0.9999999982711355,
+          "physical_qubits_required": 4,
+          "exotic_particle_type": null,
+          "topological_order": null,
+          "parent_backend": "ibm_fez",
+          "generation_timestamp": "2025-11-24T19:21:33.116667"
+        }
+      ]
+    },
+    {
+      "backend": "ibm_torino",
+      "metrics": {
+        "total_physical_qubits": 133,
+        "total_logical_qubits": 1120,
+        "scaling_factor": 8.421052631578947,
+        "generation_rate_per_second": 115369.6271919053,
+        "exotic_particle_count": 399,
+        "exotic_fraction": 0.6,
+        "avg_coherence_years": 12957.001602770251,
+        "min_error_rate": 2.6944743860579143e-15,
+        "max_error_rate": 9.374230249294971e-10,
+        "timestamp": "2025-11-24T19:21:33.132334"
+      },
+      "sample_qubits": [
+        {
+          "id": "logical_qubit_1303",
+          "encoding": "surface_code",
+          "coherence_time_seconds": 327680411.39226514,
+          "coherence_time_years": 10.38356565113523,
+          "error_rate": 4.2060000362615485e-10,
+          "gate_fidelity": 0.999999995794,
+          "physical_qubits_required": 4,
+          "exotic_particle_type": null,
+          "topological_order": null,
+          "parent_backend": "ibm_torino",
+          "generation_timestamp": "2025-11-24T19:21:33.128343"
+        }
+      ]
+    },
+    {
+      "backend": "ibm_torino",
+      "metrics": {
+        "total_physical_qubits": 133,
+        "total_logical_qubits": 1108,
+        "scaling_factor": 8.330827067669173,
+        "generation_rate_per_second": 145930.0644350939,
+        "exotic_particle_count": 399,
+        "exotic_fraction": 0.6,
+        "avg_coherence_years": 11630.514276039597,
+        "min_error_rate": 2.320057922629837e-15,
+        "max_error_rate": 9.949350586030187e-10,
+        "timestamp": "2025-11-24T19:21:33.140375"
+      },
+      "sample_qubits": [
+        {
+          "id": "logical_qubit_2423",
+          "encoding": "surface_code",
+          "coherence_time_seconds": 915095132.2582123,
+          "coherence_time_years": 28.99761490918867,
+          "error_rate": 7.094334058014303e-10,
+          "gate_fidelity": 0.999999992905666,
+          "physical_qubits_required": 4,
+          "exotic_particle_type": null,
+          "topological_order": null,
+          "parent_backend": "ibm_torino",
+          "generation_timestamp": "2025-11-24T19:21:33.135305"
+        }
+      ]
+    },
+    {
+      "backend": "ibm_torino",
+      "metrics": {
+        "total_physical_qubits": 133,
+        "total_logical_qubits": 1074,
+        "scaling_factor": 8.075187969924812,
+        "generation_rate_per_second": 178311.4632466453,
+        "exotic_particle_count": 399,
+        "exotic_fraction": 0.6,
+        "avg_coherence_years": 12036.789126171258,
+        "min_error_rate": 1.1751782401496891e-15,
+        "max_error_rate": 9.559188499220967e-10,
+        "timestamp": "2025-11-24T19:21:33.146716"
+      },
+      "sample_qubits": [
+        {
+          "id": "logical_qubit_3531",
+          "encoding": "surface_code",
+          "coherence_time_seconds": 117224954.1807686,
+          "coherence_time_years": 3.7146346420757155,
+          "error_rate": 9.259130888723865e-10,
+          "gate_fidelity": 0.9999999907408691,
+          "physical_qubits_required": 4,
+          "exotic_particle_type": null,
+          "topological_order": null,
+          "parent_backend": "ibm_torino",
+          "generation_timestamp": "2025-11-24T19:21:33.143193"
+        }
+      ]
+    },
+    {
+      "backend": "ibm_torino",
+      "metrics": {
+        "total_physical_qubits": 133,
+        "total_logical_qubits": 1056,
+        "scaling_factor": 7.93984962406015,
+        "generation_rate_per_second": 175413.26827722773,
+        "exotic_particle_count": 399,
+        "exotic_fraction": 0.6,
+        "avg_coherence_years": 10254.781804757307,
+        "min_error_rate": 1.3586321221323093e-15,
+        "max_error_rate": 9.845944619563124e-10,
+        "timestamp": "2025-11-24T19:21:33.153200"
+      },
+      "sample_qubits": [
+        {
+          "id": "logical_qubit_4605",
+          "encoding": "surface_code",
+          "coherence_time_seconds": 145842379.80696228,
+          "coherence_time_years": 4.621466138329983,
+          "error_rate": 2.3214057446749023e-11,
+          "gate_fidelity": 0.9999999997678595,
+          "physical_qubits_required": 4,
+          "exotic_particle_type": null,
+          "topological_order": null,
+          "parent_backend": "ibm_torino",
+          "generation_timestamp": "2025-11-24T19:21:33.149719"
+        }
+      ]
+    }
+  ],
+  "backends": {
+    "ibm_fez": {
+      "name": "ibm_fez",
+      "num_physical_qubits": 156,
+      "backend_type": "QuantumBackend.IBM_FEZ",
+      "mean_t1_coherence_us": 103.4,
+      "mean_gate_fidelity": 0.9915,
+      "quantum_volume": 64,
+      "is_available": true
+    },
+    "ibm_torino": {
+      "name": "ibm_torino",
+      "num_physical_qubits": 133,
+      "backend_type": "QuantumBackend.IBM_TORINO",
+      "mean_t1_coherence_us": 103.0,
+      "mean_gate_fidelity": 0.991,
+      "quantum_volume": 64,
+      "is_available": true
+    }
+  }
+}
